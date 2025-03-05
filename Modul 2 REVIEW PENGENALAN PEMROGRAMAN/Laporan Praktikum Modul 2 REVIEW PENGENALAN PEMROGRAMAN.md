@@ -2,10 +2,7 @@
 <h1 align="center">Laporan Praktikum Modul 2 REVIEW PENGENALAN PEMROGRAMAN</h1> <p align="center">Cholid Afiddrus Wijayanto - 103112430012</p>
 ## Dasar Teori
 
-
-<div style="text-align: justify;">
 Pemrograman adalah cara memberi perintah kepada komputer menggunakan kode untuk menjalankan tugas tertentu, seperti menghitung angka atau menampilkan teks. Dengan memahami konsep dasar seperti variabel, operator, percabangan, dan perulangan, kita bisa mulai membuat program sederhana.
-</div>
 
 ## Unguided
 
