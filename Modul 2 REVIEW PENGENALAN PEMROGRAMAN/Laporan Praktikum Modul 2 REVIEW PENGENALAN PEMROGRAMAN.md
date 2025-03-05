@@ -4,7 +4,7 @@
 
 
 <div style="text-align: justify;">
-ngga usah panjang panjang kalau bisa satu paragfraf aja
+Pemrograman adalah cara memberi perintah kepada komputer menggunakan kode untuk menjalankan tugas tertentu, seperti menghitung angka atau menampilkan teks. Dengan memahami konsep dasar seperti variabel, operator, percabangan, dan perulangan, kita bisa mulai membuat program sederhana.
 </div>
 
 ## Unguided
