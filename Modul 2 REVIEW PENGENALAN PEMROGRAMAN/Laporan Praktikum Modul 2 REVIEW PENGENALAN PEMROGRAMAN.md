@@ -39,8 +39,9 @@ func main() {
 }
 ```
 
-> Output
-![Screenshot Soal 1](output/soal1.jpg)`
+**Output:**
+
+![Gambar Output](output/soal1.jpg)
 
 
 Program ini melakukan pertukaran nilai dari tiga variabel string.
@@ -80,8 +81,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal2.jpg)
+**Output:**
+
+![Gambar Output](output/soal2.jpg)
 
 Program ini memeriksa apakah suatu tahun merupakan tahun kabisat. Tahun kabisat yaitu tahun yang habis dibagi 400 atau habis dibagi 4 tetapi tidak habis dibagi 100. Program menerima input berupa bilangan bulat yang mewakili tahun, kemudian menggunakan logika kondisi (if) untuk menentukan apakah tahun tersebut memenuhi syarat sebagai tahun kabisat. Hasil akhirnya ditampilkan dalam format boolean (`true` atau `false`) untuk menunjukkan apakah tahun yang dimasukkan adalah tahun kabisat atau bukan.
 
@@ -111,8 +113,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal3.jpg)
+**Output:**
+
+![Gambar Output](output/soal3.jpg)
 
 Program ini menghitung volume dan luas permukaan bola berdasarkan jari-jari yang dimasukkan oleh user. Menggunakan konstanta π(phi) ≈ 3.1415926535, program menerapkan rumus volume bola V=4 / 3πr^3  dan luas permukaan bola A = 4πr^2 untuk menghasilkan outputnya. Setelah menerima input jari-jari, program menghitung nilai volume dan luas permukaan, lalu menampilkannya dengan empat angka di belakang koma agar lebih akurat. Program ini menggunakan **operasi aritmatika sederhana** untuk melakukan konversi dan memastikan hasilnya jelas bagi user.
 
@@ -150,8 +153,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal4.jpg)
+**Output:**
+
+![Gambar Output](output/soal4.jpg)
 
 Program ini mengonversi suhu dari Celsius ke suhu lainnya yaitu: Reamur, Fahrenheit, dan Kelvin. Setelah menerima input suhu dalam Celsius dari user, program menghitung nilai dalam skala Reamur menggunakan rumus R = C × 4 / 5, Fahrenheit dengan F = (C × 9 / 5)+32, dan Kelvin dengan K = C + 273.15. Hasil konversi kemudian ditampilkan dalam format tanpa desimal agar mempermudah untuk dibaca.
 
@@ -257,8 +261,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal6.jpg)
+**Output:**
+
+![Gambar Output](output/soal6.jpg)
 
 Program ini membantu user mengecek urutan warna dalam percobaan kimia. Urutan yang benar adalah **merah, kuning, hijau, ungu**. Program meminta user memasukkan warna untuk **lima kali percobaan**. Setiap kali user memasukkan warna, program akan membandingkannya dengan urutan yang benar. Jika semua percobaan sesuai, program menampilkan **BERHASIL: true**. Jika ada **satu saja** yang salah, hasilnya **BERHASIL: false**. Program menggunakan **perulangan** untuk meminta input warna dan **kondisi if-else** untuk mengecek apakah semua percobaan benar atau tidak.
 
@@ -356,8 +361,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal7.jpg)
+**Output:**
+
+![Gambar Output](output/soal7.jpg)
 
 Program ini memungkinkan user menyusun pita berisi nama-nama bunga dengan dua cara: memasukkan sejumlah bunga sesuai angka `N` yang diberikan atau mengetikkan bunga secara berulang hingga memasukkan kata `SELESAI`. Program menyimpan bunga dalam variabel `PitaBunga`, yang menggunakan string dengan format `"bunga1 - bunga2 - bunga3"` untuk menggabungkan nama-nama bunga yang dimasukkan.
 
@@ -458,8 +464,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal9.jpg)
+**Output:**
+
+![Gambar Output](output/soal9.jpg)
 
 Program ini digunakan untuk memperkirakan nilai **√2** dengan melakukan perhitungan berulang. Pertama, program meminta user memasukkan **nilai K**, yang menentukan seberapa banyak iterasi yang dilakukan agar hasil perhitungan semakin mendekati nilai **√2**. Program memulai dengan **result = 1.0**, yang nantinya akan diperbarui dalam setiap iterasi. Kemudian, program menjalankan **perulangan dari 0 hingga K**, di mana setiap iterasi akan menghitung **pembilang** menggunakan rumus `(4𝑖 + 2)²` dan **penyebut** dengan rumus `(4𝑖 + 1)(4𝑖 + 3)`. Setelah itu, hasil perkalian sebelumnya akan dikalikan dengan **pembilang dibagi penyebut** untuk memperbarui nilai `result`. Setelah semua perhitungan selesai, program menampilkan hasil akhir dengan **10 angka di belakang koma** agar lebih akurat. Semakin besar nilai **K** yang dimasukkan, semakin mendekati hasilnya dengan nilai asli **√2**.
 
@@ -506,8 +513,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal10.jpg)
+**Output:**
+
+![Gambar Output](output/soal10.jpg)
 
 Program ini diawali dengan meminta **input berat parsel dalam gram** dari user. Setelah itu, program **menghitung total berat dalam kilogram** dengan membagi berat parsel dengan 1000, serta **menghitung sisa berat dalam gram** dengan operasi modulus (%). Kemudian, program menghitung **biaya pengiriman dasar** dengan mengalikan total berat dalam kg dengan **Rp. 10.000 per kg**.
 
@@ -556,8 +564,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal11.jpg)
+**Output:**
+
+![Gambar Output](output/soal11.jpg)
 
 a. Jika nam diberikan adalah 80.1,keluaran dari program tersebut adalah error dikarenakan terdapat kesalahan dalam tipe data. Program tersebut menyimpan string ("A", "AB", dll.) ke dalam variabel nam yang seharusnya bertipe float64. Akibatnya. kondisi perbandingan tidak sesuai dan tidak berfungsi.
 
@@ -603,8 +612,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal12.jpg)
+**Output:**
+
+![Gambar Output](output/soa12.jpg)
 
 Program ini dimulai dengan meminta **input sebuah bilangan bulat** dari user. Setelah itu, program akan **mencari semua faktor** dari bilangan tersebut dengan melakukan perulangan dari **1 hingga bilangan itu sendiri**. Jika bilangan tersebut **habis dibagi oleh suatu angka**, maka angka tersebut dianggap sebagai faktor dan akan ditampilkan. Selain itu, program juga **menghitung jumlah faktor** yang ditemukan.
 
