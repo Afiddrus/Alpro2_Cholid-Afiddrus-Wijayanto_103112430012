@@ -165,8 +165,9 @@ func main() {
 }
 ```
 
-> Output
-![[Modul 3 FUNGSI/output/soal2.jpg]]
+**Output:**
+
+![Gambar Output](output/soal2.jpg)
 
 Program ini menghitung hasil dari tiga fungsi matematika yang dikombinasikan, yaitu f(x) = x², g(x) = x - 2, dan h(x) = x + 1. Fungsi-fungsi ini digabung dalam bentuk komposisi, seperti fogoh(x) = f(g(h(x))), yang berarti h(x) dijalankan dulu, hasilnya masuk ke g(x), lalu ke f(x). Begitu juga dengan gohof(x) = g(h(f(x))) dan hofog(x) = h(f(g(x))), yang masing-masing memiliki urutan perhitungan berbeda.
 
@@ -252,10 +253,10 @@ func main() {
 }
 ```
 
-> Output
-![[Modul 3 FUNGSI/output/soal3.jpg]]
+**Output:**
 
-![[soal3(2).jpg]]
+![Gambar Output](output/soal3.jpg)
+![Gambar Output](output/soal3(2).jpg)
 
 Program ini digunakan untuk menentukan apakah sebuah titik berada di dalam satu atau dua lingkaran berdasarkan koordinat pusat dan jari-jari lingkaran. Pertama, ada fungsi jarak(a, b, c, d int) float64 yang menghitung jarak antara dua titik menggunakan rumus Pythagoras. Kemudian, fungsi didalam(cx, cy, r, x, y int) bool memeriksa apakah titik (x, y) berada di dalam lingkaran dengan cara membandingkan jaraknya dengan jari-jari lingkaran.
 
