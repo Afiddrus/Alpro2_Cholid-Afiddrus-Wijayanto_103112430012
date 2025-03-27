@@ -186,8 +186,9 @@ func main() {
 }
 ```
 
-> Output
-> ![Screenshot bagian x](output/soal5.jpg)
+**Output:**
+
+![Gambar Output](output/soal5.jpg)
 
 Program ini mengubah angka menjadi huruf sesuai dengan tabel ASCII dan menggeser beberapa huruf ke depan. **Pertama**, program meminta user memasukkan **lima angka** antara **32 hingga 127**. Setiap angka dikonversi ke huruf berdasarkan tabel ASCII dan ditampilkan dalam satu baris tanpa spasi. **Kedua**, program meminta **tiga huruf** sebagai input. Setiap huruf kemudian digeser **satu langkah maju** dalam urutan ASCII (misalnya, 'A' menjadi 'B'). **Terakhir**, program mencetak dua baris output: **baris pertama** berisi lima huruf hasil konversi dari angka, dan **baris kedua** berisi tiga huruf yang sudah digeser. Program ini menggunakan **perulangan** untuk membaca input dan **fungsi bawaan ASCII** untuk melakukan konversi.
 
@@ -614,7 +615,7 @@ func main() {
 
 **Output:**
 
-![Gambar Output](output/soa12.jpg)
+![Gambar Output](output/soal12.jpg)
 
 Program ini dimulai dengan meminta **input sebuah bilangan bulat** dari user. Setelah itu, program akan **mencari semua faktor** dari bilangan tersebut dengan melakukan perulangan dari **1 hingga bilangan itu sendiri**. Jika bilangan tersebut **habis dibagi oleh suatu angka**, maka angka tersebut dianggap sebagai faktor dan akan ditampilkan. Selain itu, program juga **menghitung jumlah faktor** yang ditemukan.
 
