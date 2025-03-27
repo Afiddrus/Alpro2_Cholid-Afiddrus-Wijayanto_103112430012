@@ -79,7 +79,7 @@ func main() {
 ```
 
 > Output
-> ![Output](Modul%203%20FUNGSI/output/soal1.jpg)
+>![Output](output/soal1.jpg)
 
 
 Program ini digunakan untuk menghitung permutasi dan kombinasi berdasarkan input dari user. Pertama, ada fungsi faktorial(n int) int yang menghitung faktorial dari n. Jika n adalah 0 atau 1, maka langsung mengembalikan 1. Jika lebih dari 1, program akan menghitung faktorial dengan mengalikan angka dari 2 hingga n.
