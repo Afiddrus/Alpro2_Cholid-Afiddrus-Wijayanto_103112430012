@@ -93,8 +93,9 @@ func main() {
 }
 ```
 
-> Output
-![[Modul 4/output/soal1.jpg]]
+**Output:**
+
+![Gambar Output](output/soal1.jpg)
 
 
 Program ini menghitung permutasi dan kombinasi berdasarkan input dari user. Pertama, user diminta memasukkan empat angka, yaitu `angka1`, `angka2`, `angka3`, dan `angka4`, yang masing-masing berfungsi sebagai nilai `n` dan `r` dalam perhitungan permutasi dan kombinasi. Program menggunakan prosedur `faktorial(n int, hasil *int)` untuk menghitung faktorial dengan cara mengalikan angka dari 2 hingga `n`, lalu menyimpannya dalam variabel `hasil`. Prosedur `permutasi(n, r int, hasil *int)` menghitung permutasi dengan membagi faktorial `n` dengan faktorial `(n-r)`, sedangkan prosedur `kombinasi(n, r int, hasil *int)` menghitung kombinasi dengan membagi hasil permutasi dengan faktorial `r`, sesuai dengan rumus `C(n, r) = P(n, r) / r!`. Setelah membaca input, `main()` memanggil prosedur `permutasi` dan `kombinasi` dua kali, pertama untuk pasangan `angka1` dan `angka3`, lalu untuk `angka2` dan `angka4`. Hasilnya disimpan dalam variabel `perm1`, `komb1`, `perm2`, dan `komb2`, lalu ditampilkan dalam dua baris output, masing-masing berisi hasil permutasi dan kombinasi dari pasangan angka yang sesuai.
@@ -190,8 +191,9 @@ func main() {
 }
 ```
 
-> Output
-![[Modul 4/output/soal2.jpg]]
+**Output:**
+
+![Gambar Output](output/soal2.jpg)
 
 Program ini digunakan untuk menentukan pemenang dalam kompetisi pemrograman berdasarkan jumlah soal yang berhasil diselesaikan dan total waktu pengerjaan. Pertama, ada prosedur `hitungSkor(soal *int, skor *int)` yang menghitung jumlah soal yang dikerjakan dan total waktu yang dibutuhkan. Program membaca delapan angka satu per satu, di mana setiap angka mewakili waktu pengerjaan soal. Jika waktu pengerjaan lebih dari 301 menit, soal dianggap tidak dikerjakan. Dalam `main()`, program meminta user memasukkan nama peserta dan waktu pengerjaan setiap soal. Jika nama yang dimasukkan adalah "Selesai", program berhenti menerima input. Setiap peserta dibandingkan berdasarkan jumlah soal yang diselesaikan, dan jika jumlahnya sama, maka peserta dengan total waktu terkecil akan dipilih sebagai pemenang. Program menyimpan informasi pemenang dalam variabel `pemenang`, `maxSoal`, dan `minSkor`, lalu mencetak output berupa nama pemenang, jumlah soal yang diselesaikan, dan total waktu pengerjaan.
 
@@ -247,7 +249,8 @@ func main() {
 }
 ```
 
-> Output
-![[Modul 4/output/soal3.jpg]]
+**Output:**
+
+![Gambar Output](output/soal3.jpg)
 
 Program ini mencetak deret bilangan berdasarkan input dari user. Pertama, user diminta memasukkan sebuah angka yang kemudian diproses dalam prosedur `cetakDeret(n int)`. Di dalam prosedur ini, angka akan dicetak terlebih dahulu, lalu diperiksa apakah angka tersebut genap atau ganjil. Jika genap, angka akan dibagi 2, sedangkan jika ganjil, angka akan dikalikan 3 lalu ditambah 1. Proses ini terus berulang hingga angka mencapai nilai 1, yang kemudian dicetak sebagai angka terakhir dalam deret. Setelah menerima input angka, fungsi `main()` memanggil prosedur `cetakDeret()` untuk menampilkan hasilnya dalam satu baris output.
